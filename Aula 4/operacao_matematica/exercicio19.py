@@ -18,3 +18,17 @@
 
 # Crie um programa que calcule o emprestimo de R$250.00 a uma taxa de 5.5 porcento ao mês. 
 # O programa deve pedir ao usuário que digite quantos mêses deve durar o empréstimo e mostre na tela o valor a ser recebido.
+
+print('Software para calcula o valor total do emprestimo')
+while True:
+    try:
+        tempo_emprestimo = int(input('Tempo de emprestimo(mês): '))
+        print(f'\nValor a receber é igual a R${(float(250.00 * (1 + (5.5 / 100)) ** tempo_emprestimo)):.2f}')
+    except ValueError:
+        #caso usuario tente escrever algo que não foi pedido
+        print('\nVocê digitou algum número errado\n')
+    else:
+        #escolha de quebra do loop
+        escolha = int(input('\nDigite 1 para reiniciar:'))
+        if escolha != 1:
+            break
