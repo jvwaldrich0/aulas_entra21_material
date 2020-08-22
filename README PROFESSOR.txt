@@ -1,0 +1,1 @@
+Eu realizei as tarefas no Pycharm, talvez haja algum bug ao utilizar o intepretador do Python diretamente sobre o arquivo.
