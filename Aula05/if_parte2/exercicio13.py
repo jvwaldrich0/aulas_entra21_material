@@ -11,7 +11,9 @@
 # Se o usuário selecionar "Contato" deve aparecer o nome do cliente, email e o telefone
 
 from datetime import date
+#função para calcular idade
 def idade():
+    # Input do dia do nascimento
     print('Informe sua data de nascimento:')
     sday = int(input('Dia: '))
     smonth = int(input('Mês: '))
@@ -20,10 +22,12 @@ def idade():
     year = int(start_date.year)
     month = int(start_date.month)
     day = int(start_date.day)
+    # Pegando valores do dia atual
     final_day = date.today()
     fday = final_day.today().day
     fmonth = final_day.today().month
     fyear = final_day.today().year
+    #----- Loop
     while True:
         try:
             if start_date.replace(year=year, month=month, day=day) == final_day.replace(year=fyear, month=fmonth,
@@ -49,7 +53,7 @@ def idade():
 while True:
     try:
         nome = input('Vamos cadastrar um usuário?\nDigite seu nome: ')
-        idade = int(idade())
+        idade = int(idade()) #Chamei a função acima
         endereco = input('Digite seu endereço: ')
         email = input('Digite seu email: ')
         telefone = input('Digite seu telefone: ')

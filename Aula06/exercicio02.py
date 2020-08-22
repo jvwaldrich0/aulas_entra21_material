@@ -1,12 +1,12 @@
-# Exercicio 17
-# crie um programa que peça 4 notas de um aluno e calcule a média "(nota1+nota2+nota3+nota4)/4" e retorne:
-# 
-# Pra média igual a 10 apareça a mensagem "Aprovado com louvor"
-# Pra média maior igual a 7 apareça a mensagem "Aprovado"
-# Pra média menor que 7 apareça a mensagem "Reprovado"
-#
+'''Escreva um programa que receba 4 notas e calcule a média.
+Mostre a seguinte mensagem conforme a media final.
 
-#Adicionei umas cores para ficar mais bonito
+Media Final
+de 0 a 5 - Reprovado
+de 5 a 6.5 - Recuperação
+de 6.5 a 9 - Aprovado
+Acima de 9 - Aprovado com louvor'''
+
 class cor:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -35,10 +35,12 @@ while True:
                 else:
                     break
         # Para não precisar criar outra variavel para media, peço ao interpretador do Python para que faça o calculo de antemão
-        if ((nota[0]+nota[1]+nota[2]+nota[3])/4) == 10:
+        if ((nota[0]+nota[1]+nota[2]+nota[3])/4) > 9:
             print(cor.BOLD+(cor.GREEN+'\nAprovado com louvor!\n'.upper())+cor.END)
-        elif 10 > ((nota[0]+nota[1]+nota[2]+nota[3])/4) >= 7:
+        elif 6.5 < ((nota[0]+nota[1]+nota[2]+nota[3])/4) <= 9:
             print('\nAprovado!\n'.upper())
+        elif 5 < float((nota[0]+nota[1]+nota[2]+nota[3])/4) <= 6.5:
+            print(cor.BOLD+(cor.YELLOW+'\nRecuperação!\n'.upper())+cor.END)
         else:
             print(cor.BOLD+(cor.RED+'\nReprovado!\n'.upper())+cor.END)
     except ValueError:
