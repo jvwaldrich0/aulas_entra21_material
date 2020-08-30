@@ -22,7 +22,7 @@ menor = vandas[:6]
 maior = vandas[6:]
 
 while True:
-    print(*vandas, sep=', ')
+    print(cor.BOLD+cor.YELLOW+'Lista Original: '+cor.END,vandas)
     print(cor.BOLD+cor.BLUE+f'\nMaior: {maior}\n'+cor.END,
           cor.BOLD+cor.GREEN+f'\nMenor: {menor}'+cor.END)
     escolha = int(input('\nDigite 1 para reiniciar: '))
