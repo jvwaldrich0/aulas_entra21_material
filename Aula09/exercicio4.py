@@ -41,7 +41,7 @@ for i in range(10):
                         break
                 except ValueError:
                     continue
-            print (cor.BOLD+cor.CYAN+'\nMuito bem ,vamos continuar...\n'.upper()+cor.END)
+            print (cor.BOLD+cor.CYAN+'\nMuito bem, vamos continuar...\n'.upper()+cor.END)
 else:
     #  ---- Loop of results
     for x in range(10):
