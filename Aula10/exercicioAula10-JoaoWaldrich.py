@@ -94,6 +94,14 @@ class cliente:
         else:
             return cor.GREEN
 
+    def varios(self):
+        return print(
+            cor.YELLOW + '***********************************************************\n\t\t\t\tRelatório dos clientes\n***********************************************************' + cor.END)
+
+    def unico(self):
+        return print(
+            cor.YELLOW + '***********************************\n\t\tRelatório do cliente\n***********************************' + cor.END)
+
     def relatorio(self, item, color):
         print(cor.BOLD + color + f'''
 ***********************************************************
@@ -147,8 +155,8 @@ while True:
                 else:
                     break
         elif escolha == 2:
-            print(cor.YELLOW+'***********************************************************\n\t\t\t\tRelatório dos clientes\n***********************************************************'+cor.END)
             for i in range(len(usuario)):
+                cliente.varios(usuario[i])
                 cliente.relatorio(usuario[i], i, cliente.difference(usuario[i], i))
         elif escolha == 3:
             while True:
@@ -156,7 +164,7 @@ while True:
                     id = int(input('ID do usuário: '))
                     for i in range(len(usuario)):
                         if id == usuario[i].id:
-                            print(cor.YELLOW+'***********************************\n\t\tRelatório do cliente\n***********************************'+cor.END)
+                            cliente.unico(usuario[i])
                             cliente.relatorio(usuario[i], i, cliente.difference(usuario[i], i))
                             break
                     else:
