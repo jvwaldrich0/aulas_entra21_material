@@ -35,7 +35,7 @@ class Cadastro:
                                              '', '', '', '', '', '']
             self.data.to_csv('Planilhas/'+self.arquivo+'.csv')
         else:
-            return 'Menor de idade (idade menor que 18)'
+            return AttributeError
 
     def add_home(self, row, Estado, Cidade, Bairro, Rua, Numero: int, Complemento):
         lista = [Estado, Cidade, Bairro, Rua, Numero, Complemento]

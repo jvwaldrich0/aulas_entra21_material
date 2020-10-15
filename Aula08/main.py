@@ -5,10 +5,12 @@ def aviso():
     print('\nOps, parece que você digitou algo errado.\nVamos tentar de novo\n')
 
 # - Nota de autor e de versão
-print('Software de cadastro feito por João Vitor Waldrich versão Beta 1.0')
+print('\nSoftware de cadastro feito por João Vitor Waldrich versão Beta 1.0')
 
 # - Instanciando a função Cadastro
 empresa_cadastro = input('Digite o arquivo de cadastro .csv que você deseja manipular\n> ').upper()
+if empresa_cadastro == '':
+    empresa_cadastro = 'ENTRA21'
 try:
     df = Cadastro(empresa_cadastro, True)
 except FileNotFoundError:
@@ -28,7 +30,7 @@ while True:
 1 - Cadastrar usuário
 2 - Adicionar endereço a um usuário
 3 - Editar cadastro
-4 - Remover cadastro
+4 - Remover cadastros
 5 - Listar nomes cadastrado
 6 - Ver todas as informações de um usuário
 7 - Sair
@@ -52,8 +54,11 @@ while True:
                 except ValueError:
                     aviso()
                     continue
+                except AttributeError:
+                    print('\nMenor de 18 anos\n')
+                    continue
                 else:
-                    x = int(input('Digite 1 para acrescentar um endereço também\n>'))
+                    x = int(input('Digite 1 para acrescentar um endereço também!\n>'))
                     # Colocando usuário direto para a segunda opção caso ele concorde em add endereço também
                     if x == 1:
                         controle = True

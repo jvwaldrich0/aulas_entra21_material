@@ -1,6 +1,3 @@
-,ID,Nome,Sobrenome,Idade,Estado,Cidade,Bairro,Rua,Numero,Complemento,,
-0,95894c8e74dd4d232a14caf58abc17755e121240c5cb6944506e7bfee2c1c02d0ccd394fad2ecf2b6bd27835cb5c79ffd882da97003caf59493e387c207a02d7,João,Waldrich,18,SC,Gaspar,BairroJoao,RuaJoao,21,uma residencia,,
-1,b5c9dbcb5dce0cf546b44af6764d86f2bdb541b08fe248a5c314447b3e19ff1c83a8a848d668f51899a834b8b9e96f6d486411fbf25d7357af4d4808802cc41d,Jessica,Tomaz,20,SC,Blumenau,BairroDela,RuaDela,212,Uma residencia,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,
-,,,,,,,,,,,,s
+,ID,Nome,Sobrenome,Idade,Estado,Cidade,Bairro,Rua,Numero,Complemento
+0,95894c8e74dd4d232a14caf58abc17755e121240c5cb6944506e7bfee2c1c02d0ccd394fad2ecf2b6bd27835cb5c79ffd882da97003caf59493e387c207a02d7,Joao,Waldrich,18,SC,Gaspar,BairroJoao,RuaJoao,21,uma residencia
+1,b5c9dbcb5dce0cf546b44af6764d86f2bdb541b08fe248a5c314447b3e19ff1c83a8a848d668f51899a834b8b9e96f6d486411fbf25d7357af4d4808802cc41d,Jessica,Tomaz,20,SC,Blumenau,BairroDela,RuaDela,212,Uma residencia
