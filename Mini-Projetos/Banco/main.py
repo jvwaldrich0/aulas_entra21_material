@@ -15,15 +15,17 @@ def indices(indice: int):
         pass
 
 
+backup = False
+sem_arquivo = False
 try:
     cliente = load(open('Data/data.txt', 'rb'))
-    backup = False
     print('Cheguei')
 except FileNotFoundError:
     try:
         cliente = load(open('Data/Backup.txt', 'rb'))
         backup = True
     except FileNotFoundError:
+        sem_arquivo = True
         cliente = []
 
 while True:
@@ -103,3 +105,6 @@ Digite a operação desejada
 
 if backup:
     copyfile(join(cwd(), 'Data/Backup.txt'), join(cwd(), 'Data/data.txt'))
+elif sem_arquivo:
+    copyfile(copyfile(join(cwd(), 'Data/data.txt'), join(cwd(), 'Data/Backup.txt')))
+
