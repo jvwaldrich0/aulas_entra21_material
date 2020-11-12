@@ -1,6 +1,6 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
-from Packages.funcoes import verificacao, traco, listar, transferencia, deposito, view_saldo, menu
+from Packages.funcoes import calcular_idade, verificacao, traco, listar, transferencia, deposito, view_saldo, menu
 from pickle import load, dump
 from os.path import join
 from os import getcwd as cwd
@@ -26,12 +26,36 @@ while True:
         valor = int(input(menu()))
         # Cadastrar Pessoa
         if valor == 1:
+            nome1 = input(f'{traco(24)}\nDigite o nome: ')
+            while True:
+                cpf1 = input('Digite o CPF(11 caracteres): ')
+                if len(cpf1) != 11:
+                    print(traco(24)+'\nCPF precisa ter 11 caracteres')
+                    continue
+                else:
+                    try:
+                        int(cpf1)
+                        break
+                    except ValueError:
+                        print(traco(24)+'\nCPF precisa possuir apenas números')
+                        continue
+            while True:
+                dia1 = int(input('Informe o seu nascimento: \nDia = '))
+                mes1 = int(input('Mes = '))
+                ano1 = int(input('Ano = '))
+                try:
+                    calcular_idade(dia1, mes1, ano1)
+                except ValueError:
+                    print(traco(24)+'\nData de nascimento inválida\n'+traco(24))
+                else:
+                    break
+
             cliente += [Pessoa(
-                nome=input(f'{traco(24)}\nDigite o nome: '),
-                cpf=input('Digite o CPF(11 caracteres): '),
-                dia=int(input('Informe o seu nascimento: \nDia = ')),
-                mes=int(input('Mes = ')),
-                ano=int(input('Ano = ')),
+                nome=nome1,
+                cpf=cpf1,
+                dia=dia1,
+                mes=mes1,
+                ano=ano1,
             )]
         # Cadastrar Conta
         elif valor == 2:
@@ -60,6 +84,8 @@ while True:
         elif valor == 6:
             print("Agradecemos a sua visita!")
             break
+        else:
+            print(traco(20) + '\nOpção inválida\n'.upper() + traco(20))
     except ValueError:
         print('Valor Inválido! Reiniciando...')
     except IndexError:

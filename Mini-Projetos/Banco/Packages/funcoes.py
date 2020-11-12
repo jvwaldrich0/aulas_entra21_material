@@ -1,4 +1,5 @@
 from os import name, system
+from datetime import date
 
 
 def verificacao(cliente):
@@ -13,6 +14,12 @@ def traco(tamanho: int):
 def listar(cliente):
     for i in range(len(cliente)):
         print(f'{i} - ' + str(cliente[i]))
+
+
+def calcular_idade(dia, mes, ano) -> int:
+    born = date(day=dia, month=mes, year=ano)
+    today = date.today()
+    return today.year - born.year - ((today.month, today.day) < (born.month, born.day))
 
 
 def clear():
@@ -64,11 +71,11 @@ def view_saldo(cliente):
     print(traco(12))
     indice = int(input('Digite o índice\n> '))
     if cliente[indice].conta:
-        print(f'\n{traco(24)}\nR${cliente[indice].id_conta.saldo:.2f}\n{traco(24)}')
+        print(f'\n{traco(24)}\n{cliente[indice].firstname}: R${cliente[indice].id_conta.saldo:.2f}\n{traco(24)}')
 
 
 def menu():
-    return f"""
+    return f"""{traco((24))}
 Digite a operação desejada
 {traco(24)}
 1 - Cadastrar Pessoa
