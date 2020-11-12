@@ -6,6 +6,7 @@ from pickle import load, dump
 def traco(tamanho: int):
     return '-'*tamanho
 
+
 try:
     cliente = load(open('Data/data.txt', 'rb'))
 except FileNotFoundError:
