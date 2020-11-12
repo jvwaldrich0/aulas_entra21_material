@@ -1,9 +1,12 @@
 from datetime import date
-from banco import Conta
+
 
 class Pessoa:
+    """"
+    Classe Pessoa tem como objetivo criar uma classe geral para pessoas
+    """
     def __init__(self, nome: str, cpf, dia: int, mes: int, ano: int, motorista: bool = False,
-                 habilitacao: bool = False, conta: bool = False, id_conta: Conta = None):
+                 habilitacao: bool = False, conta: bool = False, id_conta = None):
         self.firstname = nome.upper()
         if len(cpf) != 11:
             raise AttributeError('CPF Inválido')
@@ -32,4 +35,3 @@ class Pessoa:
         born = date(day=dia, month=mes, year=ano)
         today = date.today()
         return today.year - born.year - ((today.month, today.day) < (born.month, born.day))
-

@@ -19,30 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56838f2e-21f3-4474-9420-aebc82eb10b0" name="Default Changelist" comment="">
+    <list default="true" id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Banco/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Banco/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Aulas_Entra21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_Entra21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/exercicio1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/exercicio2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula01/exercicio3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula06/exercicio1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula06/exercicio2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula06/exercicio3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula06/script.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/Projeto Cadastro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/synopsys_code_sight_state.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/Packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/Packages/cadastro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/Planilhas/BACKUP.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/Planilhas/ENTRA21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aula08/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/Packages/a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/Packages/banco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Banco/Packages/banco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco/Packages/clientes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Banco/Packages/pessoa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,61 +45,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1fxmtAWNpozdtNBjItCi88WV88c" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1kATd0msipJSvQMyAf90sJAOfnI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Entra21" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Entra21" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Aulas_Entra21" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,11 +64,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aula08" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Banco" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aula08/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Banco/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,22 +80,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.Test2" />
-        <item itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56838f2e-21f3-4474-9420-aebc82eb10b0" name="Default Changelist" comment="" />
-      <created>1597168329800</created>
+      <changelist id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="" />
+      <created>1605142480041</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597168329800</updated>
+      <updated>1605142480041</updated>
     </task>
     <servers />
   </component>
@@ -167,40 +104,23 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="480" y="201" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597422769052">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state width="1897" height="295" key="GridCell.Tab.0.bottom" timestamp="1605142908772">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="480" y="201" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.30.1600.870@0.30.1600.870" timestamp="1597422769052" />
-    <state x="580" y="220" key="FileChooserDialogImpl" timestamp="1597424512015">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state width="1897" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605142908772" />
+    <state width="1897" height="295" key="GridCell.Tab.0.center" timestamp="1605142908772">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="580" y="220" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1597424512015" />
-    <state x="618" y="383" key="Github.CreateGistDialog" timestamp="1597424487618">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state width="1897" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605142908772" />
+    <state width="1897" height="295" key="GridCell.Tab.0.left" timestamp="1605142908772">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="618" y="383" key="Github.CreateGistDialog/0.30.1600.870@0.30.1600.870" timestamp="1597424487618" />
-    <state width="519" height="627" key="GridCell.Tab.0.bottom" timestamp="1602729382272">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state width="1897" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605142908772" />
+    <state width="1897" height="295" key="GridCell.Tab.0.right" timestamp="1605142908772">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="519" height="627" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1602729382272" />
-    <state width="519" height="627" key="GridCell.Tab.0.center" timestamp="1602729382271">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="519" height="627" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1602729382271" />
-    <state width="519" height="627" key="GridCell.Tab.0.left" timestamp="1602729382271">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="519" height="627" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1602729382271" />
-    <state width="519" height="627" key="GridCell.Tab.0.right" timestamp="1602729382272">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state width="519" height="627" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1602729382272" />
-    <state x="301" y="110" key="SettingsEditor" timestamp="1597421432473">
-      <screen x="0" y="30" width="1600" height="870" />
-    </state>
-    <state x="301" y="110" key="SettingsEditor/0.30.1600.870@0.30.1600.870" timestamp="1597421432473" />
+    <state width="1897" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605142908772" />
   </component>
 </project>
