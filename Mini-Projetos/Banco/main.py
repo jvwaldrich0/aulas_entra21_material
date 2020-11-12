@@ -3,23 +3,30 @@ from Packages.pessoa import Pessoa
 from pickle import load, dump
 import os
 
+def traco(tamanho:int):
+    return '-'*tamanho
+
+
 cliente = load(open('Data/data.txt', 'rb'))
 path = os.getcwd()
 
 while True:
     try:
         valor = int(input(
-            """Digite a operação desejada
+            f"""
+Digite a operação desejada
+{traco(24)}
 1 - Cadastrar Pessoa
 2 - Cadastrar Conta
 3 - Visualizar Saldo
-4 - Fazer um depósito
-5 - Sair
-
-> """))
+4 - Fazer uma transferência
+5 - Fazer um depósito
+6 - Sair
+{traco(24)}
+> """.upper()))
         if valor == 1:
             cliente += [Pessoa(
-                nome=input(f'\n\nDigite o nome: '),
+                nome=input(f'{traco(24)}\nDigite o nome: '),
                 cpf=input('Digite o CPF(11 caracteres): '),
                 dia=int(input('Informe o seu nascimento: \nDia = ')),
                 mes=int(input('Mes = ')),
@@ -40,10 +47,12 @@ while True:
 
         elif valor == 3:
             for i in range(len(cliente)):
-                print(f'{i} -' + str(cliente[i]))
+                print(f'{traco(12)}\n{i} -' + str(cliente[i]))
+            else:
+                print(traco(12))
             indice = int(input('Digite o índice\n> '))
             if cliente[indice].conta:
-                print(f'R${cliente[indice].id_conta.saldo:.2f}')
+                print(f'\n{traco(24)}\nR${cliente[indice].id_conta.saldo:.2f}\n{traco(24)}')
             del indice
         elif valor == 4:
             indice = []
@@ -58,6 +67,12 @@ while True:
             cliente[indice[1]].id_conta.saldo += quantia
             del indice
         elif valor == 5:
+            for i in range(len(cliente)):
+                print(f'{i} -' + str(cliente[i]))
+            indice = int(input('Digite o índice\n> '))
+            cliente[indice].id_conta.saldo += float(input('\nDigite a quantia\n> '))
+            del indice
+        elif valor == 6:
             print("Agradecemos a sua visita!")
             break
     except ValueError:
