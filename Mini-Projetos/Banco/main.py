@@ -93,6 +93,7 @@ while True:
     else:
         # Salvar arquivo
         dump(cliente, open('Data/data.txt', 'wb'))
+
 # recuperar Backup
 if backup:
     copyfile(src=join(cwd(), 'Data/Backup.txt'),
