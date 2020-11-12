@@ -7,7 +7,6 @@ from os import getcwd as cwd
 from shutil import copyfile
 
 
-
 backup = False
 sem_arquivo = False
 # Abrir arquivo
@@ -64,7 +63,7 @@ while True:
     except ValueError:
         print('Valor Inválido! Reiniciando...')
     except IndexError:
-        print(traco(24),'\nCadastre alguem...\n'.upper() + traco(24))
+        print(traco(24), '\nCadastre alguem...\n'.upper() + traco(24))
     else:
         # Salvar arquivo
         dump(cliente, open('Data/data.txt', 'wb'))
