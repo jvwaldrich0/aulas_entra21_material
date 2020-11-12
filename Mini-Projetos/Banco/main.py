@@ -19,7 +19,6 @@ backup = False
 sem_arquivo = False
 try:
     cliente = load(open('Data/data.txt', 'rb'))
-    print('Cheguei')
 except FileNotFoundError:
     try:
         cliente = load(open('Data/Backup.txt', 'rb'))
@@ -55,7 +54,7 @@ Digite a operação desejada
 
         elif valor == 2:
             for i in range(len(cliente)):
-                print(f'{i} -' + str(cliente[i]))
+                print(f'{i} - ' + str(cliente[i]))
             indice = int(input('Digite o índice\n> '))
             conta = Conta(
                 cliente[indice],
@@ -67,7 +66,7 @@ Digite a operação desejada
         elif valor == 3:
             indices(len(cliente))
             for i in range(len(cliente)):
-                print(f'{traco(12)}\n{i} -' + str(cliente[i]))
+                print(f'{traco(12)}\n{i} - ' + str(cliente[i]))
             else:
                 print(traco(12))
             indice = int(input('Digite o índice\n> '))
@@ -79,7 +78,7 @@ Digite a operação desejada
             for x in range(2):
                 print(f'{"De quem" if x == 0 else "Para quem" }')
                 for i in range(len(cliente)):
-                    print(f'{i} -' + str(cliente[i]))
+                    print(f'{i} - ' + str(cliente[i]))
                 indice += [int(input('Digite o índice\n> '))]
             else:
                 quantia = float(input('\nDigite a quantia\n > '))
@@ -88,7 +87,7 @@ Digite a operação desejada
             del indice
         elif valor == 5:
             for i in range(len(cliente)):
-                print(f'{i} -' + str(cliente[i]))
+                print(f'{i} - ' + str(cliente[i]))
             indice = int(input('Digite o índice\n> '))
             cliente[indice].id_conta.saldo += float(input('\nDigite a quantia\n> '))
             del indice
