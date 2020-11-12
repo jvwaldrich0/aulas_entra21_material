@@ -1,7 +1,6 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
 from pickle import load, dump
-import os
 
 
 def traco(tamanho: int):
@@ -9,8 +8,6 @@ def traco(tamanho: int):
 
 
 cliente = load(open('Data/data.txt', 'rb'))
-path = os.getcwd()
-
 while True:
     try:
         valor = int(input(
