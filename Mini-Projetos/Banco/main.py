@@ -1,10 +1,9 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
+from pickle import load, dump
 import os
-import pickle
 
-with open('Data/data.txt', 'rb') as data:
-    cliente = pickle.load(data)
+cliente = load(open('Data/data.txt', 'rb'))
 path = os.getcwd()
 
 while True:
@@ -64,4 +63,4 @@ while True:
     except ValueError:
         print('Valor Inválido! Reiniciando...')
     else:
-        pickle.dump(cliente, open('Data/data.txt', 'wb'))
+        dump(cliente, open('Data/data.txt', 'wb'))
