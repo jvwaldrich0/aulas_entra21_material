@@ -1,6 +1,7 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
 from Packages.funcoes import calcular_idade, verificacao, traco, listar, transferencia, deposito, view_saldo, menu
+from Packages.cor import cor
 from pickle import load, dump
 from os.path import join
 from os import getcwd as cwd
@@ -23,21 +24,22 @@ except FileNotFoundError:
 while True:
     try:
         # Menu
-        valor = int(input(menu()))
+        valor = int(input(cor.END + cor.BOLD + menu()))
         # Cadastrar Pessoa
         if valor == 1:
-            nome1 = input(f'{traco(24)}\nDigite o nome: ')
+            print(cor.BLUE)
+            nome1 = input(f'{traco(24)}\nDigite o nome: '.upper())
             while True:
-                cpf1 = input('Digite o CPF(11 caracteres): ')
+                cpf1 = input('Digite o CPF(11 caracteres): '.upper())
                 if len(cpf1) != 11:
-                    print(traco(24)+'\nCPF precisa ter 11 caracteres')
+                    print(traco(24)+'\nCPF precisa ter 11 caracteres'.upper())
                     continue
                 else:
                     try:
                         int(cpf1)
                         break
                     except ValueError:
-                        print(traco(24)+'\nCPF precisa possuir apenas números')
+                        print(traco(24)+'\nCPF precisa possuir apenas números'.upper())
                         continue
             while True:
                 dia1 = int(input('Informe o seu nascimento: \nDia = '))
@@ -59,6 +61,7 @@ while True:
             )]
         # Cadastrar Conta
         elif valor == 2:
+            print(cor.YELLOW + traco(24))
             cliente[0]
             listar(cliente)
             indice = int(input('Digite o índice\n> '))
@@ -73,16 +76,20 @@ while True:
             del indice
         # Visualizar Saldo
         elif valor == 3:
+            print(cor.CYAN + traco(24))
             view_saldo(cliente)
         # Transferencia
         elif valor == 4:
+            print(cor.DARKCYAN + traco(24))
             transferencia(cliente)
         # Deposito
         elif valor == 5:
+            print(cor.RED + traco(24))
             deposito(cliente)
         # Sair
         elif valor == 6:
-            print("Agradecemos a sua visita!")
+            print(cor.PURPLE + traco(24))
+            print("Agradecemos a sua visita!".upper())
             break
         else:
             print(traco(20) + '\nOpção inválida\n'.upper() + traco(20))

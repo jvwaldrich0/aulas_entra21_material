@@ -23,9 +23,11 @@ def calcular_idade(dia, mes, ano) -> int:
 
 
 def clear():
-    if name == 'nt': # Windows
+    if name == 'nt':
+        # Windows
         return system('cls') or None
-    else: # Linux / MacOS
+    else:
+        # Linux / MacOS
         return system('clear') or None
 
 
@@ -42,13 +44,14 @@ def transferencia(cliente):
         quantia = float(input('\nDigite a quantia\n> '))
         if quantia > cliente[indice[0]].id_conta.saldo:
             escolha = 0
-            while escolha != 1 or 2:
+            while True:
                 escolha = int(input('SALDO FICARÁ NEGATIVO! '
-                                    'DIGITE 1 PARA PROSSEGUIR'
-                                    'DIGITE 2 PARA CANCELAR OPERAÇÃO'))
+                                    '\nDIGITE 1 PARA PROSSEGUIR'
+                                    '\nDIGITE 2 PARA CANCELAR OPERAÇÃO\n> '))
                 if escolha == 1:
                     cliente[indice[0]].id_conta.saldo -= quantia
                     cliente[indice[1]].id_conta.saldo += quantia
+                    break
                 elif escolha == 2:
                     break
                 else:
@@ -71,7 +74,7 @@ def view_saldo(cliente):
     print(traco(12))
     indice = int(input('Digite o índice\n> '))
     if cliente[indice].conta:
-        print(f'\n{traco(24)}\n{cliente[indice].firstname}: R${cliente[indice].id_conta.saldo:.2f}\n{traco(24)}')
+        print(f'{traco(24)}\n{cliente[indice].firstname}: R${cliente[indice].id_conta.saldo:.2f}\n{traco(24)}')
 
 
 def menu():
