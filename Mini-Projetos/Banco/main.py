@@ -37,22 +37,6 @@ while True:
                 float(input('Digite o saldo da conta\n> R$'))
             )
             cliente[indice].id_conta = conta
-            # with open('Data/data.txt', 'wb') as data:
-            #     c = cliente[indice]
-            #     dicionario = {'Nome': c.firstname,
-            #                    'Nascimento': c.nascimento,
-            #                    'CPF': c.cpf,
-            #                    'Conta':
-            #                        {
-            #                            'Saldo': c.id_conta.saldo,
-            #                            'Banco':
-            #                                {
-            #                                    'Agencia': c.id_conta.agencia,
-            #                                    'Conta': c.id_conta.conta,
-            #                                    'CodSeg': c.id_conta.codseg
-            #                                }
-            #                        }
-            #                    }
             del indice
 
         elif valor == 3:
