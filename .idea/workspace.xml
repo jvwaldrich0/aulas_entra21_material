@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Aulas_Entra21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_Entra21.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Banco/Packages/funcoes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Banco/Data/Backup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Banco/Data/Backup.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Banco/Data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Banco/Data/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Banco/Packages/pessoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Banco/Packages/pessoa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mini-Projetos/Banco/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Banco/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,26 +126,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="623" height="902" key="GridCell.Tab.0.bottom" timestamp="1605198298670">
+    <state width="646" height="902" key="GridCell.Tab.0.bottom" timestamp="1605204067936">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
-    <state width="623" height="902" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1605198298670" />
-    <state width="623" height="902" key="GridCell.Tab.0.center" timestamp="1605198298670">
+    <state width="646" height="902" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1605204067936" />
+    <state width="646" height="902" key="GridCell.Tab.0.center" timestamp="1605204067936">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
-    <state width="623" height="902" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1605198298670" />
-    <state width="623" height="902" key="GridCell.Tab.0.left" timestamp="1605198298670">
+    <state width="646" height="902" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1605204067936" />
+    <state width="646" height="902" key="GridCell.Tab.0.left" timestamp="1605204067936">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555956" />
-    <state width="623" height="902" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1605198298670" />
-    <state width="623" height="902" key="GridCell.Tab.0.right" timestamp="1605198298670">
+    <state width="646" height="902" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1605204067936" />
+    <state width="646" height="902" key="GridCell.Tab.0.right" timestamp="1605204067936">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
-    <state width="623" height="902" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1605198298670" />
+    <state width="646" height="902" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1605204067936" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605190760242">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

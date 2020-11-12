@@ -7,12 +7,12 @@ class Pessoa:
     """
     def __init__(self, nome: str, cpf, dia: int, mes: int, ano: int, conta: bool = False, id_conta = None):
         if len(cpf) != 11:
-            raise AttributeError('CPF Inválido')
+            raise ValueError('CPF Inválido')
         else:
             try:
                 int(cpf)
             except ValueError:
-                raise AttributeError('CPF Inválido')
+                raise ValueError('CPF Inválido')
             self.cpf = (f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}.{cpf[9:11]}')
         self.firstname = nome.upper()
         self.idade = self.calcular_idade(dia, mes, ano)
