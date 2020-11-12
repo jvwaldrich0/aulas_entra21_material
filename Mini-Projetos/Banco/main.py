@@ -1,16 +1,30 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
 from pickle import load, dump
+from os.path import join
+from os import getcwd as cwd
+from shutil import copyfile
+
 
 
 def traco(tamanho: int):
     return '-'*tamanho
 
+def indices(indice: int):
+    if indice == None:
+        pass
+
 
 try:
     cliente = load(open('Data/data.txt', 'rb'))
+    backup = False
+    print('Cheguei')
 except FileNotFoundError:
-    cliente = load(open('Data/Backup.txt', 'rb'))
+    try:
+        cliente = load(open('Data/Backup.txt', 'rb'))
+        backup = True
+    except FileNotFoundError:
+        cliente = []
 
 while True:
     try:
@@ -26,6 +40,7 @@ Digite a operação desejada
 6 - Sair
 {traco(24)}
 > """.upper()))
+        print(len(cliente))
         if valor == 1:
             cliente += [Pessoa(
                 nome=input(f'{traco(24)}\nDigite o nome: '),
@@ -48,6 +63,7 @@ Digite a operação desejada
             del indice
 
         elif valor == 3:
+            indices(len(cliente))
             for i in range(len(cliente)):
                 print(f'{traco(12)}\n{i} -' + str(cliente[i]))
             else:
@@ -79,5 +95,11 @@ Digite a operação desejada
             break
     except ValueError:
         print('Valor Inválido! Reiniciando...')
+    except IndexError:
+        print('Indice inexistente')
     else:
         dump(cliente, open('Data/data.txt', 'wb'))
+
+
+if backup:
+    copyfile(join(cwd(), 'Data/Backup.txt'), join(cwd(), 'Data/data.txt'))
