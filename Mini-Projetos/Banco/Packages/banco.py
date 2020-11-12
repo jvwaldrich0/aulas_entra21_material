@@ -8,9 +8,9 @@ class Banco():
         self.codseg = randint(100, 999)
 
 
-class Conta():
-    def __init__(self, banco: Banco, pessoa, saldo = 0.00):
+class Conta(Banco):
+    def __init__(self, pessoa, saldo=0.00):
+        super().__init__()
         self.id = pessoa.cpf
-        self.banco = banco
         self.pessoa = pessoa
         self.saldo = saldo

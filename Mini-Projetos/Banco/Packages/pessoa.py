@@ -6,7 +6,6 @@ class Pessoa:
     Classe Pessoa tem como objetivo criar uma classe geral para pessoas
     """
     def __init__(self, nome: str, cpf, dia: int, mes: int, ano: int, conta: bool = False, id_conta = None):
-        self.firstname = nome.upper()
         if len(cpf) != 11:
             raise AttributeError('CPF Inválido')
         else:
@@ -15,6 +14,7 @@ class Pessoa:
             except ValueError:
                 raise AttributeError('CPF Inválido')
             self.cpf = (f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}.{cpf[9:11]}')
+        self.firstname = nome.upper()
         self.idade = self.calcular_idade(dia, mes, ano)
         self.nascimento = date(day=dia, month=mes, year=ano)
         self.conta = conta

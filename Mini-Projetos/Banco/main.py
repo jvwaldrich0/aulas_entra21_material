@@ -1,10 +1,16 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
-
+import os
+import pickle
 
 cliente = []
+path = os.getcwd()
+
 while True:
     try:
+        with open('Data/data.txt', 'rb') as data:
+            dic = pickle.load(data)
+            print(dic)
         valor = int(input(
             """Digite a operação desejada
 1 - Cadastrar Pessoa
@@ -23,17 +29,35 @@ while True:
                 ano=int(input('Ano = ')),
                 conta=True
             )]
+
         elif valor == 2:
             for i in range(len(cliente)):
                 print(f'{i} -' + str(cliente[i]))
             indice = int(input('Digite o índice\n> '))
             conta = Conta(
-                Banco(),
                 cliente[indice],
                 float(input('Digite o saldo da conta\n> R$'))
             )
             cliente[indice].id_conta = conta
-            del indice
+            with open('Data/data.txt', 'wb') as data:
+                c = cliente[indice]
+                dicionario = {'Nome': c.firstname,
+                               'Nascimento': c.nascimento,
+                               'CPF': c.cpf,
+                               'Conta':
+                                   {
+                                       'Saldo': c.id_conta.saldo,
+                                       'Banco':
+                                           {
+                                               'Agencia': c.id_conta.agencia,
+                                               'Conta': c.id_conta.conta,
+                                               'CodSeg': c.id_conta.codseg
+                                           }
+                                   }
+                               }
+                pickle.dump(dicionario, data)
+                del indice
+
         elif valor == 3:
             for i in range(len(cliente)):
                 print(f'{i} -' + str(cliente[i]))
