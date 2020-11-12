@@ -3,7 +3,8 @@ from Packages.pessoa import Pessoa
 from pickle import load, dump
 import os
 
-def traco(tamanho:int):
+
+def traco(tamanho: int):
     return '-'*tamanho
 
 
