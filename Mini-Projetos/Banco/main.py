@@ -28,7 +28,7 @@ while True:
         print(traco(24))
         # Cadastrar Pessoa
         if valor == 1:
-            nome1 = input(f'{traco(24)}\nDigite o nome: '.upper())
+            nome1 = input(f'Digite o nome: '.upper())
             cpf1 = add_cpf()
             dia1, mes1, ano1 = add_nascimento()
             cliente += [Pessoa(
@@ -61,6 +61,7 @@ while True:
         # Deposito
         elif valor == 5:
             deposito(cliente)
+        # Gerenciar Pessoas
         elif valor == 6:
             listar(cliente)
             indice = int(input('Digite o índice\n> '))

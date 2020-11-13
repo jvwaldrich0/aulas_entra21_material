@@ -17,6 +17,7 @@ def traco(tamanho: int):
 def listar(cliente):
     for i in range(len(cliente)):
         print(f'{i} - ' + str(cliente[i]))
+    print(traco(24))
 
 
 def calcular_idade(dia, mes, ano) -> int:
@@ -40,7 +41,7 @@ def verify():
         if quantia > 0:
             return quantia
         else:
-            print(traco(24) + '\nDigite um numero natural\n'.upper() + traco(24))
+            print(traco(24) + '\nValor Inválido\n'.upper() + traco(24))
 
 
 def transferencia(cliente):
@@ -56,13 +57,11 @@ def transferencia(cliente):
             verificacao(cliente[indice[x]])
         except AttributeError:
             print(traco(24) + f'\n{cliente[indice[x]].firstname} Não possui conta\n'.upper() + traco(24))
-            controle = False
             break
     else:
         if controle:
             quantia = verify()
             if quantia > cliente[indice[0]].id_conta.saldo:
-                escolha = 0
                 while True:
                     escolha = int(input('SALDO FICARÁ NEGATIVO! '
                                         '\nDIGITE 1 PARA PROSSEGUIR'
@@ -89,10 +88,11 @@ def deposito(cliente):
     except AttributeError:
         print(traco(24) + f'\n{cliente[indice].firstname} Não possui conta\n'.upper() + traco(24))
     else:
-        quantia = verify()
-        cliente[indice].id_conta.saldo = quantia
+        cliente[indice].id_conta.saldo += verify()
+
 
 def view_saldo(cliente):
+    cliente[0]
     listar(cliente)
     indice = int(input('Digite o índice\n> '))
     if cliente[indice].conta:
@@ -102,9 +102,9 @@ def view_saldo(cliente):
 
 
 def menu():
-    return f"""{traco((24))}
+    return f"""{traco((30))}
 Digite a operação desejada
-{traco(24)}
+{traco(30)}
 1 - Cadastrar Pessoa
 2 - Cadastrar Conta
 3 - Visualizar Saldo
@@ -112,7 +112,7 @@ Digite a operação desejada
 5 - Fazer um depósito
 6 - Gerenciar Pessoas
 7 - Sair
-{traco(24)}
+{traco(30)}
 > """.upper()
 
 
