@@ -3,9 +3,12 @@ from datetime import date
 
 
 def verificacao(cliente):
-    if not cliente.conta:
-        return print('Crie uma conta')
-
+    try:
+        a = cliente.id_conta.saldo
+    except AttributeError:
+        raise AttributeError
+    else:
+        return a
 
 def traco(tamanho: int):
     return '-'*tamanho
@@ -31,50 +34,71 @@ def clear():
         return system('clear') or None
 
 
+def verify():
+    while True:
+        quantia = float(input('Digite a quantia\n> '))
+        if quantia > 0:
+            return quantia
+        else:
+            print(traco(24) + '\nDigite um numero natural\n'.upper() + traco(24))
+
+
 def transferencia(cliente):
     cliente[0]
     indice = []
+    controle = True
     for x in range(2):
         print(f'{"De quem" if x == 0 else "Para quem"}')
         for i in range(len(cliente)):
             print(f'{i} - ' + str(cliente[i]))
         indice += [int(input('Digite o índice\n> '))]
-        verificacao(cliente[indice[x]])
+        try:
+            verificacao(cliente[indice[x]])
+        except AttributeError:
+            print(traco(24) + f'\n{cliente[indice[x]].firstname} Não possui conta\n'.upper() + traco(24))
+            controle = False
+            break
     else:
-        quantia = float(input('\nDigite a quantia\n> '))
-        if quantia > cliente[indice[0]].id_conta.saldo:
-            escolha = 0
-            while True:
-                escolha = int(input('SALDO FICARÁ NEGATIVO! '
-                                    '\nDIGITE 1 PARA PROSSEGUIR'
-                                    '\nDIGITE 2 PARA CANCELAR OPERAÇÃO\n> '))
-                if escolha == 1:
-                    cliente[indice[0]].id_conta.saldo -= quantia
-                    cliente[indice[1]].id_conta.saldo += quantia
-                    break
-                elif escolha == 2:
-                    break
-                else:
-                    continue
-        else:
-            cliente[indice[0]].id_conta.saldo -= quantia
-            cliente[indice[1]].id_conta.saldo += quantia
+        if controle:
+            quantia = verify()
+            if quantia > cliente[indice[0]].id_conta.saldo:
+                escolha = 0
+                while True:
+                    escolha = int(input('SALDO FICARÁ NEGATIVO! '
+                                        '\nDIGITE 1 PARA PROSSEGUIR'
+                                        '\nDIGITE 2 PARA CANCELAR OPERAÇÃO\n> '))
+                    if escolha == 1:
+                        cliente[indice[0]].id_conta.saldo -= quantia
+                        cliente[indice[1]].id_conta.saldo += quantia
+                        break
+                    elif escolha == 2:
+                        break
+                    else:
+                        continue
+            else:
+                cliente[indice[0]].id_conta.saldo -= quantia
+                cliente[indice[1]].id_conta.saldo += quantia
 
 
 def deposito(cliente):
     cliente[0]
     listar(cliente)
     indice = int(input('Digite o índice\n> '))
-    cliente[indice].id_conta.saldo += float(input('\nDigite a quantia\n> '))
-
+    try:
+        verificacao(cliente[indice])
+    except AttributeError:
+        print(traco(24) + f'\n{cliente[indice].firstname} Não possui conta\n'.upper() + traco(24))
+    else:
+        quantia = verify()
+        cliente[indice].id_conta.saldo = quantia
 
 def view_saldo(cliente):
-    cliente[0]
     listar(cliente)
-    print(traco(12))
     indice = int(input('Digite o índice\n> '))
     if cliente[indice].conta:
         print(f'{traco(24)}\n{cliente[indice].firstname}: R${cliente[indice].id_conta.saldo:.2f}\n{traco(24)}')
+    else:
+        print(traco(24) + f'\n{cliente[indice].firstname} não possui saldo\n\nOBS: Crie uma conta'.upper())
 
 
 def menu():
@@ -86,6 +110,55 @@ Digite a operação desejada
 3 - Visualizar Saldo
 4 - Fazer uma transferência
 5 - Fazer um depósito
-6 - Sair
+6 - Gerenciar Pessoas
+7 - Sair
 {traco(24)}
 > """.upper()
+
+
+def menu_pessoa(cliente):
+    return  f'''{traco((24))}
+Nome: {cliente.firstname}
+{traco(24)}
+CPF: {cliente.cpf}
+idade: {cliente.idade}
+{traco(24)}
+1 - Mudar Nome
+2 - Mudar CPF
+3 - Mudar data de nascimento
+4 - Mudar Saldo
+5 - Voltar
+{traco(24)}
+> '''.upper()
+
+
+def add_cpf():
+    while True:
+        cpf1 = input('Digite o CPF(11 caracteres): '.upper())
+        if len(cpf1) != 11:
+            print(traco(24) + '\nCPF precisa ter 11 caracteres'.upper())
+            continue
+        else:
+            try:
+                int(cpf1)
+                return cpf1
+            except ValueError:
+                print(traco(24) + '\nCPF precisa possuir apenas números'.upper())
+                continue
+
+
+def format_cpf(cpf) -> str:
+    return f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}.{cpf[9:11]}'
+
+
+def add_nascimento():
+    while True:
+        dia1 = int(input('Informe o seu nascimento: \nDia = '))
+        mes1 = int(input('Mes = '))
+        ano1 = int(input('Ano = '))
+        try:
+            calcular_idade(dia1, mes1, ano1)
+        except ValueError:
+            print(traco(24) + '\nData de nascimento inválida\n' + traco(24))
+        else:
+            return dia1, mes1, ano1

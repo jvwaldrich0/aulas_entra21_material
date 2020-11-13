@@ -1,11 +1,11 @@
 from Packages.banco import Banco, Conta
 from Packages.pessoa import Pessoa
-from Packages.funcoes import format_cpf, add_nascimento, add_cpf, menu_pessoa, calcular_idade, verificacao, traco, listar, transferencia, deposito, view_saldo, menu
+from Packages.funcoes import calcular_idade, verificacao, traco, listar, transferencia, deposito, view_saldo, menu
+from Packages.cor import cor
 from pickle import load, dump
 from os.path import join
 from os import getcwd as cwd
 from shutil import copyfile
-from datetime import date
 
 
 backup = False
@@ -24,13 +24,34 @@ except FileNotFoundError:
 while True:
     try:
         # Menu
-        valor = int(input(menu()))
-        print(traco(24))
+        valor = int(input(cor.END + cor.BOLD + menu()))
         # Cadastrar Pessoa
         if valor == 1:
+            print(cor.BLUE)
             nome1 = input(f'{traco(24)}\nDigite o nome: '.upper())
-            cpf1 = add_cpf()
-            dia1, mes1, ano1 = add_nascimento()
+            while True:
+                cpf1 = input('Digite o CPF(11 caracteres): '.upper())
+                if len(cpf1) != 11:
+                    print(traco(24)+'\nCPF precisa ter 11 caracteres'.upper())
+                    continue
+                else:
+                    try:
+                        int(cpf1)
+                        break
+                    except ValueError:
+                        print(traco(24)+'\nCPF precisa possuir apenas números'.upper())
+                        continue
+            while True:
+                dia1 = int(input('Informe o seu nascimento: \nDia = '))
+                mes1 = int(input('Mes = '))
+                ano1 = int(input('Ano = '))
+                try:
+                    calcular_idade(dia1, mes1, ano1)
+                except ValueError:
+                    print(traco(24)+'\nData de nascimento inválida\n'+traco(24))
+                else:
+                    break
+
             cliente += [Pessoa(
                 nome=nome1,
                 cpf=cpf1,
@@ -40,6 +61,7 @@ while True:
             )]
         # Cadastrar Conta
         elif valor == 2:
+            print(cor.YELLOW + traco(24))
             cliente[0]
             listar(cliente)
             indice = int(input('Digite o índice\n> '))
@@ -54,45 +76,19 @@ while True:
             del indice
         # Visualizar Saldo
         elif valor == 3:
+            print(cor.CYAN + traco(24))
             view_saldo(cliente)
         # Transferencia
         elif valor == 4:
+            print(cor.DARKCYAN + traco(24))
             transferencia(cliente)
         # Deposito
         elif valor == 5:
+            print(cor.RED + traco(24))
             deposito(cliente)
-        elif valor == 6:
-            listar(cliente)
-            indice = int(input('Digite o índice\n> '))
-            escolha = int(input(menu_pessoa(cliente[indice])))
-            # Mudar Nome
-            if escolha == 1:
-                cliente[indice].firstname = input(f'{traco(24)}\nDigite o novo nome\n> ').upper()
-            # Mudar CPF
-            elif escolha == 2:
-                cliente[indice].cpf = format_cpf(add_cpf())
-            # Mudar data de nascimento
-            elif escolha == 3:
-                dia1, mes1, ano1 = add_nascimento()
-                cliente[indice].nascimento = date(day=dia1,
-                                                  month=mes1,
-                                                  year=ano1)
-                cliente[indice].idade = calcular_idade(dia1,
-                                                       mes1,
-                                                       ano1)
-            # Mudar Saldo
-            elif escolha == 4:
-                try:
-                    cliente[indice].id_conta.saldo = float(input(
-                        f'R${cliente[indice].id_conta.saldo:.2f}\nDIGITE O NOVO SALDO\n> '))
-                except AttributeError:
-                    print(traco(24) + f'\n{cliente[indice].firstname} não possui saldo\n\nOBS: Crie uma conta'.upper())
-            # Volta
-            elif escolha == 5:
-                continue
         # Sair
-        elif valor == 7:
-            print(traco(24))
+        elif valor == 6:
+            print(cor.PURPLE + traco(24))
             print("Agradecemos a sua visita!".upper())
             break
         else:
@@ -100,7 +96,7 @@ while True:
     except ValueError:
         print('Valor Inválido! Reiniciando...')
     except IndexError:
-        print(traco(24), '\nCadastre alguém...\n'.upper() + traco(24))
+        print(traco(24), '\nCadastre alguem...\n'.upper() + traco(24))
     else:
         # Salvar arquivo
         dump(cliente, open('Data/data.txt', 'wb'))
