@@ -1,11 +1,14 @@
-from Packages.banco import Banco, Conta
-from Packages.pessoa import Pessoa
-from Packages.funcoes import format_cpf, add_nascimento, add_cpf, menu_pessoa, calcular_idade, verificacao, traco, listar, transferencia, deposito, view_saldo, menu
+# Standart Libraries Import
 from pickle import load, dump
 from os.path import join
 from os import getcwd as cwd
 from shutil import copyfile
 from datetime import date
+
+# Importando funções de pasta Packages
+from Packages.banco import Banco, Conta
+from Packages.pessoa import Pessoa
+from Packages.funcoes import format_cpf, add_nascimento, add_cpf, menu_pessoa, calcular_idade, verificacao, traco, listar, transferencia, deposito, view_saldo, menu
 
 
 backup = False
