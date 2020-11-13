@@ -10,6 +10,7 @@ def verificacao(cliente):
     else:
         return a
 
+
 def traco(tamanho: int):
     return '-'*tamanho
 
@@ -102,7 +103,7 @@ def view_saldo(cliente):
 
 
 def menu():
-    return f"""{traco((30))}
+    return f"""{traco(30)}
 Digite a operação desejada
 {traco(30)}
 1 - Cadastrar Pessoa
@@ -117,7 +118,7 @@ Digite a operação desejada
 
 
 def menu_pessoa(cliente):
-    return  f'''{traco((24))}
+    return f'''{traco(24)}
 Nome: {cliente.firstname}
 {traco(24)}
 CPF: {cliente.cpf}
