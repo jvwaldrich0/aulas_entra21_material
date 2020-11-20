@@ -34,8 +34,8 @@ if __name__ == '__main__':
             dia=int(input('Info do seu nascimento: \nDia = ')),
             mes=int(input('Mes = ')),
             ano=int(input('Ano = ')),
-            motorista = True if x == 0 else False,
-            habilitacao = True if x == 0 else False
+            motorista=True if x == 0 else False,
+            habilitacao=True if x == 0 else False
         )), x)
     else:
         print(*carro.assentos, sep='\n')

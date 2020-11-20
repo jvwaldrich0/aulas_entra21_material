@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,7 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Aulas/veiculos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/pessoas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Lojinha/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Lojinha/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/aula8/insert_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula8/insert_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/aula8/intro_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula8/intro_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aulas/aula8/select_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula8/select_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/carros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/carros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/carros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/carros.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +52,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kATd0msipJSvQMyAf90sJAOfnI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,10 +61,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II" />
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="funcoes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\Aulas_Entra21\Mini-Projetos\Concessionaria II" />
+      <recent name="I:\Aulas_Entra21\Mini-Projetos\Lojinha" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="carros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Aulas_Entra21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Banco/Packages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Banco/Packages/funcoes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/carros.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -70,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="clientes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Aulas_Entra21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +99,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Banco" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Banco/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/clientes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,11 +120,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Banco" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Banco/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pessoas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Aulas_Entra21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/pessoas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="veiculos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Aulas_Entra21" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aulas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aulas/veiculos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,9 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.funcoes" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.pessoas" />
+        <item itemvalue="Python.carros" />
+        <item itemvalue="Python.clientes" />
+        <item itemvalue="Python.veiculos" />
       </list>
     </recent_temporary>
   </component>
@@ -147,35 +212,48 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="442" height="902" key="GridCell.Tab.0.bottom" timestamp="1605297880044">
+    <state x="716" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605723908473">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="716" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1605723908473" />
+    <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605729410377">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1605729410377" />
+    <state x="617" y="262" key="FileChooserDialogImpl" timestamp="1605807964599">
+      <screen x="0" y="30" width="1600" height="870" />
+    </state>
+    <state x="617" y="262" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1605807964599" />
+    <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1605718153743" />
+    <state width="574" height="902" key="GridCell.Tab.0.bottom" timestamp="1605730417059">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
     <state width="431" height="785" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
-    <state width="442" height="902" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1605297880044" />
-    <state width="442" height="902" key="GridCell.Tab.0.center" timestamp="1605297880044">
+    <state width="574" height="902" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
+    <state width="574" height="902" key="GridCell.Tab.0.center" timestamp="1605730417059">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
     <state width="431" height="785" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
-    <state width="442" height="902" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1605297880044" />
-    <state width="442" height="902" key="GridCell.Tab.0.left" timestamp="1605297880028">
+    <state width="574" height="902" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
+    <state width="574" height="902" key="GridCell.Tab.0.left" timestamp="1605730417059">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555956" />
     <state width="431" height="785" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
-    <state width="442" height="902" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1605297880028" />
-    <state width="442" height="902" key="GridCell.Tab.0.right" timestamp="1605297880044">
+    <state width="574" height="902" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
+    <state width="574" height="902" key="GridCell.Tab.0.right" timestamp="1605730417059">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state width="1897" height="365" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
     <state width="431" height="785" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
-    <state width="442" height="902" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1605297880044" />
-    <state x="519" y="219" width="672" height="547" key="search.everywhere.popup" timestamp="1605276415356">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state width="574" height="902" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
+    <state x="623" y="258" width="672" height="660" key="search.everywhere.popup" timestamp="1605720074780">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605190760242" />
     <state x="519" y="219" width="672" height="547" key="search.everywhere.popup/0.30.1600.870@0.30.1600.870" timestamp="1605276415356" />
-    <state x="623" y="258" width="672" height="660" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1605210019967" />
+    <state x="623" y="258" width="672" height="660" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1605720074780" />
   </component>
 </project>
