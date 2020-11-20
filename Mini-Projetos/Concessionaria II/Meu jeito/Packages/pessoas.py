@@ -48,10 +48,12 @@ class Pessoa:
                     self.endereco, self.salario, self.profissao)])
         except:
             # Se der erro ele desfaz
+            print('Deu problema')
             self.bd.rollback()
         else:
             #  Caso não de erro grava os dados
             self.bd.commit()
+            print('Pessoa cadastrada com sucesso')
 
     @staticmethod
     def calcular_idade(dia, mes, ano) -> int:

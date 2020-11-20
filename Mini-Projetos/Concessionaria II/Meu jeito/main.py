@@ -38,7 +38,8 @@ while True:
                     print('\nData de nascimento inválida\n')
                 else:
                     break
-            pessoa += [Pessoa(
+            pessoa += [Pessoa
+                (
                 nome = input('Nome: '),
                 cpf = cpf,
                 dia = dia,
@@ -47,9 +48,9 @@ while True:
                 endereco = input('Endereço: '),
                 salario = float(input('Salário: ')),
                 profissao = input('Profissao: ')
-            )]
+                )
+            ]
             pessoa[len(pessoa)-1].salvar()
-            print('Pessoa cadastrada com sucesso')
         elif escolha == 2:
             try:
                 nome, marca, modelo, cor, placa, proprietario, num_portas,\
@@ -64,7 +65,6 @@ while True:
                                  valor,motor, combustivel, meio_locomocao)]
 
             veiculo[len(veiculo)-1].salvar()
-            print('Veiculo cadastrado com sucesso')
         elif escolha == 3:
             db.listar('pessoas')
         elif escolha == 4:

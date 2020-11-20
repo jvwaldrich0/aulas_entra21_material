@@ -47,7 +47,7 @@ no __init__, todos os dados de cadastro entra no banco de dados
                     combustivel VARCHAR(20),
                     meio_locomocao VARCHAR(30),
                     
-	                FOREIGN KEY (proprietario) REFERENCES pessoas(id)            );
+	                FOREIGN KEY (proprietario) REFERENCES pessoas(id));
             """)
         except sqlite3.OperationalError:
             # Caso exista a tabela selecione a tabela
@@ -66,10 +66,12 @@ no __init__, todos os dados de cadastro entra no banco de dados
                     self.valor, self.motor, self.combustivel, self.meio_locomocao)])
         except:
             # Se der erro ele desfaz
+            print('Deu problema')
             self.bd.rollback()
         else:
             #  Caso não de erro grava os dados
             self.bd.commit()
+            print('Veiculo cadastrado com sucesso')
 
 
     def dados_veiculos(self, id: int = 0) -> list:

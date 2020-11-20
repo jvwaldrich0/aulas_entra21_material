@@ -1,3 +1,6 @@
+from sqlite3 import connect
+
+
 def menu():
     return '''
 ------- Menu -------
@@ -18,10 +21,8 @@ def cadastro_veiculos(pessoas):
     cor = input("Cor: ")
     placa = input("Placa: ")
     print('Escolha um proprietario: ')
-    for i in range(len(pessoas)):
-        print(f'{i} - {pessoas[i]}')
-    else:
-        proprietario = int(input('\n> '))
+    # Tentar listar os usuarios
+    proprietario = int(input('\n> '))
     num_portas = int(input("Número de portas: "))
     km_rodado = int(input("Km rodado: "))
     qtd_passageiros = int(input("Quantidade máxima de passageiros: "))

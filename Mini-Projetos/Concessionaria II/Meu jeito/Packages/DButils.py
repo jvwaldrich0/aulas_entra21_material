@@ -6,7 +6,7 @@ class Database_Utils:
         self.bd = connect(database)
         self.sql = self.bd.cursor()
 
-    def listar(self, tabela):
+    def listar(self, tabela: str):
         # Selecionar tabela
         self.sql.execute(f'SELECT nome FROM {tabela}')
         # Recolher dados
