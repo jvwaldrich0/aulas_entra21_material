@@ -10,7 +10,9 @@ def menu():
 2 - Cadastrar Veiculo
 3 - Listar Pessoa
 4 - Listar Veiculos
-5 - Sair
+5 - Remover Pessoa
+6 - Remover Veiculos
+7 - Sair
 
 > '''
 

@@ -69,4 +69,10 @@ while True:
         elif escolha == 4:
             db.listar('veiculos')
         elif escolha == 5:
+            db.listar('pessoas')
+            db.rem('pessoas', int(input('Indice\n> ')))
+        elif escolha == 6:
+            db.listar('veiculos')
+            db.rem('veiculos', int(input('Indice\n> ')))
+        elif escolha == 7:
             break

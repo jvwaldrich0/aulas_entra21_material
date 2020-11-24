@@ -4,7 +4,7 @@ from datetime import date
 
 class Pessoa:
     def __init__(self, nome: str, cpf, dia: int, mes: int, ano: int,
-                 endereco: str, salario: float,profissao:str):
+                 endereco: str, salario: float, profissao: str):
         self.ano = ano
         self.mes = mes
         self.dia = dia
@@ -16,7 +16,7 @@ class Pessoa:
                 int(cpf)
             except ValueError:
                 raise AttributeError('CPF Inválido')
-            self.cpf = (f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:11]}')
+            self.cpf = f'{cpf[:3]}.{cpf[3:6]}.{cpf[6:9]}-{cpf[9:11]}'
         self.idade = self.calcular_idade(dia, mes, ano)
         # manipular banco de dados
         self.bd = sqlite3.connect('Data/Concessionaria.db')
@@ -44,8 +44,8 @@ class Pessoa:
         try:
             # Inserindo no banco de dados
             self.sql.executemany('INSERT INTO pessoas VALUES(NULL, ?,?,?,?,?,?);',
-                    [(self.cpf, self.nome, f'{self.ano}/{self.mes}/{self.dia}',
-                    self.endereco, self.salario, self.profissao)])
+                                 [(self.cpf, self.nome, f'{self.ano}/{self.mes}/{self.dia}',
+                                   self.endereco, self.salario, self.profissao)])
         except:
             # Se der erro ele desfaz
             print('Deu problema')
