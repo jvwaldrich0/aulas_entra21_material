@@ -2,8 +2,8 @@ from datetime import date
 
 from Packages.pessoas import Pessoa
 from Packages.veiculos import Veiculos
-from Packages.DButils import Database_Utils as dbutils
-from Packages.utils import menu, cadastro_veiculos
+from Packages.DButils import DatabaseUtils as dbutils
+from Packages.Utils import menu, cadastro_veiculos
 
 pessoa = []
 veiculo = []
@@ -38,33 +38,32 @@ while True:
                     print('\nData de nascimento inválida\n')
                 else:
                     break
-            pessoa += [Pessoa
-                (
-                nome = input('Nome: '),
-                cpf = cpf,
-                dia = dia,
-                mes = mes,
-                ano = ano,
-                endereco = input('Endereço: '),
-                salario = float(input('Salário: ')),
-                profissao = input('Profissao: ')
-                )
+            pessoa += [Pessoa(
+                nome=input('Nome: '),
+                cpf=cpf,
+                dia=dia,
+                mes=mes,
+                ano=ano,
+                endereco=input('Endereço: '),
+                salario=float(input('Salário: ')),
+                profissao=input('Profissao: ')
+            )
             ]
-            pessoa[len(pessoa)-1].salvar()
+            pessoa[len(pessoa) - 1].salvar()
         elif escolha == 2:
             try:
-                nome, marca, modelo, cor, placa, proprietario, num_portas,\
-                km_rodado, qtd_passageiros, ano, valor, motor, combustivel,\
-                meio_locomocao = cadastro_veiculos(pessoa)
+                nome, marca, modelo, cor, placa, proprietario, num_portas, \
+                    km_rodado, qtd_passageiros, ano, valor, motor, combustivel, \
+                    meio_locomocao = cadastro_veiculos(pessoa)
+                veiculo += [Veiculos(nome, marca, modelo, cor, placa, proprietario,
+                                     num_portas, km_rodado, qtd_passageiros, ano,
+                                     valor, motor, combustivel, meio_locomocao)]
+                veiculo[len(veiculo) - 1].salvar()
             except:
-                print('\nCadastre Alguem!\n')
+                print('\nErro!\n')
                 continue
-
-            veiculo += [Veiculos(nome, marca, modelo, cor, placa, proprietario,
-                                 num_portas, km_rodado, qtd_passageiros, ano,
-                                 valor,motor, combustivel, meio_locomocao)]
-
-            veiculo[len(veiculo)-1].salvar()
+            else:
+                print('Veiculo Cadastrado com sucesso')
         elif escolha == 3:
             db.listar('pessoas')
         elif escolha == 4:

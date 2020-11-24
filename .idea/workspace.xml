@@ -23,18 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Aulas/veiculos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/pessoas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Lojinha/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mini-Projetos/Lojinha/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Aulas_Entra21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aulas_Entra21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas/aula8/insert_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula8/insert_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas/aula8/intro_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula8/intro_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas/aula8/select_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula8/select_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/carros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/carros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/carros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria/carros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Data/Concessionaria.db" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Data/Concessionaria.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/DButils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/DButils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/Utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/Utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/veiculos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/veiculos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +56,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II" />
+    <property name="last_opened_file_path" value="/usr/lib/python3.8/site-packages" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,8 +67,8 @@
       <recent name="I:\Aulas_Entra21\Mini-Projetos\Lojinha" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="carros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="DButils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Aulas_Entra21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/carros.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/DButils.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="clientes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Aulas_Entra21" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,11 +97,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria/Packages/clientes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +160,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Aulas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Aulas/veiculos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/veiculos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.DButils" />
+        <item itemvalue="Python.veiculos" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.pessoas" />
-        <item itemvalue="Python.carros" />
-        <item itemvalue="Python.clientes" />
-        <item itemvalue="Python.veiculos" />
       </list>
     </recent_temporary>
   </component>
@@ -220,35 +218,40 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1605729410377" />
-    <state x="617" y="262" key="FileChooserDialogImpl" timestamp="1605807964599">
-      <screen x="0" y="30" width="1600" height="870" />
+    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl" timestamp="1606213270470">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606213270470" />
     <state x="617" y="262" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1605807964599" />
     <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1605718153743" />
-    <state width="574" height="902" key="GridCell.Tab.0.bottom" timestamp="1605730417059">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1897" height="280" key="GridCell.Tab.0.bottom" timestamp="1606225388304">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
+    <state width="1897" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606225388304" />
     <state width="431" height="785" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state width="574" height="902" key="GridCell.Tab.0.center" timestamp="1605730417059">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1897" height="280" key="GridCell.Tab.0.center" timestamp="1606225388303">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="365" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
+    <state width="1897" height="280" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606225388303" />
     <state width="431" height="785" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state width="574" height="902" key="GridCell.Tab.0.left" timestamp="1605730417059">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1897" height="280" key="GridCell.Tab.0.left" timestamp="1606225388303">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="365" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555956" />
+    <state width="1897" height="280" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606225388303" />
     <state width="431" height="785" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state width="574" height="902" key="GridCell.Tab.0.right" timestamp="1605730417059">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1897" height="280" key="GridCell.Tab.0.right" timestamp="1606225388304">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="365" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605191555957" />
+    <state width="1897" height="280" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606225388304" />
     <state width="431" height="785" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
+    <state x="456" y="175" key="SettingsEditor" timestamp="1606210712168">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="456" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606210712168" />
     <state x="623" y="258" width="672" height="660" key="search.everywhere.popup" timestamp="1605720074780">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
