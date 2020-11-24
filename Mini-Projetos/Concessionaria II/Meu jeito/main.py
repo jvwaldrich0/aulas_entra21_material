@@ -59,8 +59,8 @@ while True:
                                      num_portas, km_rodado, qtd_passageiros, ano,
                                      valor, motor, combustivel, meio_locomocao)]
                 veiculo[len(veiculo) - 1].salvar()
-            except:
-                print('\nErro!\n')
+            except Exception as e:
+                print(e)
                 continue
             else:
                 print('Veiculo Cadastrado com sucesso')

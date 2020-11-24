@@ -37,8 +37,8 @@ def cadastro_veiculos(pessoas):
     meio_locomocao = input("Meio de locomoção: ")
 
     # Tratamento
-    nome = nome[1:].replace("',)")
-    marca = marca[1:].replace("',)")
+    # nome = nome[1:].replace("',)")
+    # marca = marca[1:].replace("',)")
 
     return nome, marca, modelo, cor, placa, proprietario, \
             num_portas, km_rodado, qtd_passageiros, ano, valor, \
