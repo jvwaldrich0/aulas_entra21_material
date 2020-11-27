@@ -13,7 +13,7 @@ while True:
             elif escolha == 2:
                 ex2.exercicio2()
             elif escolha == 3:
-                pass
+                ex3.exercicio3()
             elif escolha == 4:
                 pass
             elif escolha == 5:

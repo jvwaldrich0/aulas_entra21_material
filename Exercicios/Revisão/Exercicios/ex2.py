@@ -28,7 +28,7 @@ def exercicio2():
                   f"\nQuantia necessaria: {int(litros_necessarios )}L de latas tinta"
                   if int(litros_necessarios) != 1
                   else f"\nQuantia necessaria: {int(litros_necessarios )}L de lata tinta")
-            escolha1 = int(input('''O que voce deseja fazer?
+            escolha = int(input('''O que voce deseja fazer?
 1 - Comprar apenas latas de 18 litros
 2 - Comprar apenas galões de 3,6 litros
 3 - Misturar latas e galões
@@ -37,16 +37,19 @@ def exercicio2():
             galoes = 0
             latas = 0
             while True:
-                print(galoes, latas)
-                if litros_necessarios >= 18 and (escolha1 == 1 or 3):
+                if (litros_necessarios >= 18) and (escolha != 2):
                     litros_necessarios -= 18
                     total += 80
                     latas += 1
-                elif (litros_necessarios > 0) and (escolha1 == 2 or 3):
+                elif (litros_necessarios > 0) and (escolha != 1):
                     litros_necessarios -= 3.6
                     total += 25
                     galoes += 1
                 elif litros_necessarios <= 0:
+                    break
+                else:
+                    total += 80
+                    latas += 1
                     break
         except ValueError:
             print('Digite apenas numeros')
@@ -54,7 +57,7 @@ def exercicio2():
             pass
         else:
             while True:
-                print(f'{latas}\n Latas' if latas > 1 else f'{latas} Lata',
+                print(f'{latas} Latas' if latas > 1 else f'{latas} Lata',
                       f'{galoes} Galoes' if galoes > 1 else f'{galoes} Galao', sep='\n&&\n')
                 escolha = int(input(f'\nTotal: R${total:.2f}\n\nPressione 1 para prosseguir: '))
                 print('Compra feita com sucesso' if escolha == 1 else 'Compra cancelada')

@@ -30,12 +30,12 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
 ---------------------------------------
             Nota Fiscal
 ---------------------------------------
-Salário Bruto : R${salario_bruto:.2f}
-    - IR (11%) : R${(salario_bruto * 0.89):.2f}
-    - INSS (8%) : R${(salario_bruto * 0.92):.2f}
-    - Sindicato ( 5%) : R${salario_bruto * 0.95:.2f}
+Salário Bruto           R${salario_bruto:.2f}
+    - IR (11%)          R${(salario_bruto * 0.11):.2f}
+    - INSS (8%)         R${(salario_bruto * 0.8):.2f}
+    - Sindicato ( 5%)   R${salario_bruto * 0.5:.2f}
 ---------------------------------------
-Salário Liquido : R${salario_bruto * 0.76}
+Salário Liquido : R${(salario_bruto * 0.76):.2f}
 ''')
             break
 

@@ -1,2 +1,5 @@
 __pycache__
+poke.db
 pessoas.txt
+scrapper/*
+git_command/*
