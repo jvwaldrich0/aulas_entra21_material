@@ -12,6 +12,9 @@ def exercicio2():
     repetir = True
     while True:
         try:
+            # curti esse while true curto (geralmente faço uns gigantes kkk)
+            # daora também que vc pensou que a pessoa pode não saber qnts m² tem o local que quer pintar
+            # então vc pediu direto as medidas e gerou a area, daora
             while True:
                 largura = float(input('Largura da parede:'))
                 altura = float(input('Altura da parede:'))
@@ -23,6 +26,8 @@ def exercicio2():
             litros_necessarios = float(area / 6) * 1.1
             if litros_necessarios < 1:
                 litros_necessarios = 1
+                
+                #Essa parte de informações da parede também achei bem daora
             print(f'---- Info da parede ----',
                   f"\nDimensão: {largura:.0f}x{altura:.0f}\nArea: {area} m²",
                   f"\nQuantia necessaria: {int(litros_necessarios )}L de latas tinta"
@@ -54,8 +59,9 @@ def exercicio2():
             pass
         else:
             while True:
-                print(f'{latas}\n Latas' if latas > 1 else f'{latas} Lata',
-                      f'{galoes} Galoes' if galoes > 1 else f'{galoes} Galao', sep='\n&&\n')
+                #essa verificação simples pra ver se latas e galoes são >1 ou não tbm gostei, não tinha pensado nisso
+                print(f'{latas}\n Latas' if latas > 1 else f'{latas} Lata', 
+                      f'{galoes} Galoes' if galoes > 1 else f'{galoes} Galao', sep='\n&&\n') #no output antes desse '&&' está saindo uns dados perdidos
                 escolha = int(input(f'\nTotal: R${total:.2f}\n\nPressione 1 para prosseguir: '))
                 print('Compra feita com sucesso' if escolha == 1 else 'Compra cancelada')
                 rep = input("Digite 'r' para repetir: ").upper()
@@ -64,3 +70,5 @@ def exercicio2():
         finally:
             if not repetir:
                 break
+            
+exercicio2()

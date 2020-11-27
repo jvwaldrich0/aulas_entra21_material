@@ -16,6 +16,8 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
     - Sindicato ( 5%) : R$
     = Salário Liquido : R$
     """
+    
+    #me amarro num while True com try, depois que aprendi não largo mão kkkk
     while True:
         try:
             valor_hora = float(input('Quanto voce ganhar por hora?\n> '))
@@ -24,8 +26,9 @@ calcule os descontos e o salário líquido, conforme a tabela abaixo:
             print('\nDigite um numero!\n')
         except:
             print('\nDeu problema!\n')
-        else:
+        else: #Não entendi por que um Else e nao um If, mas imagino que haja um motivo
             salario_bruto = valor_hora * hora_trabalho
+            #Gostei do output, ficou maneiro
             print(f'''
 ---------------------------------------
             Nota Fiscal
