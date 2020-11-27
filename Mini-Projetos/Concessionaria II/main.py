@@ -18,6 +18,7 @@ while True:
         print('Inválido')
     else:
         if escolha == 1:
+            # Tratamento de CPF
             while True:
                 cpf = input('Digite o CPF(11 caracteres): '.upper())
                 if len(cpf) != 11:
@@ -30,6 +31,7 @@ while True:
                     except ValueError:
                         print('\nCPF precisa possuir apenas números'.upper())
                         continue
+            # Tratamento de data
             while True:
                 dia = int(input('Informe o seu nascimento: \nDia = '))
                 mes = int(input('Mes = '))
@@ -82,3 +84,4 @@ while True:
             db.rem('veiculos', int(input('Digite o indice:\n> ')))
         elif escolha == 7:
             break
+

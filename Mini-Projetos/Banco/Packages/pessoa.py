@@ -5,7 +5,7 @@ class Pessoa:
     """"
     Classe Pessoa tem como objetivo criar uma classe geral para pessoas
     """
-    def __init__(self, nome: str, cpf, dia: int, mes: int, ano: int, conta: bool = False, id_conta = None):
+    def __init__(self, nome: str, cpf, dia: int, mes: int, ano: int, conta: bool = False, id_conta=None):
         if len(cpf) != 11:
             raise ValueError('CPF Inválido')
         else:

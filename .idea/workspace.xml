@@ -24,21 +24,150 @@
   <component name="ChangeListManager">
     <list default="true" id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Grupo/ConceitoherançaAula4..py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Grupo/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Grupo/pessoas.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Grupo/pessoas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Grupo/show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Grupo/veiculos.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Data/Concessionaria.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/DButils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/Utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/pessoas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/Packages/veiculos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Meu jeito/veiculos.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Banco/Packages/pessoa.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Banco/Packages/pessoa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Data/Concessionaria.db" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/Data/Concessionaria.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mini-Projetos/Concessionaria II/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Lojinha/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mini-Projetos/Lojinha/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/Entra21.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/synopsys_code_sight_state.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula04/exercicio20.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula04/exercicio20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio05.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio06.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio07.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio09.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio11.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio12.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio15.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio17.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio18.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula05/exercicio19.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula05/exercicio19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula06/exercicio 01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula06/exercicio 01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula06/exercicio02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula06/exercicio02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula06/exercicio03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula06/exercicio03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula06/exercicio04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula06/exercicio04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula08/exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula08/exercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula08/exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula08/exercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula08/exercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula08/exercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula08/exercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula08/exercicios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/exercicio9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/exercicio9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/for_2_instrucao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/for_2_instrucao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula09/for_intrucao.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula09/for_intrucao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula10/exercicioAula10-JoaoWaldrich.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula10/exercicioAula10-JoaoWaldrich.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula10/exercicios/Aula10.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula10/exercicios/Aula10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/Exercicio 4 com POO JVWaldrich.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/Exercicio 4 com POO JVWaldrich.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/Teste de classe/ClasseC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/Teste de classe/ClasseC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/Teste de classe/Main Exercicio 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/Teste de classe/Main Exercicio 4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/Teste de classe/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/Teste de classe/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/exercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/exercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/exercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/exercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Aula11/exercicio4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Aula11/exercicio4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Extra/Exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Extra/Exercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Extra/Exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Extra/Exercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/Extra/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/Extra/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Abioluz/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Abioluz/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1000.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1000.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1001.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1002.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1003.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1004.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1004.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1005.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1005.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1006.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1006.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1007.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1007.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1008.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1009.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1009.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1010.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1010.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1011.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1011.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1012.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1012.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1013.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1013.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1014.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1014.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1015.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1015.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1016.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1016.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1017.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1017.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1018.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1018.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1019.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1019.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1020.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1020.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1021-Accepted.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1021-Accepted.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1021.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1021.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1022.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1022.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1023.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1023.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1024.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1024.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1025.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1025.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1026.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1026.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1027.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1027.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1028.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1028.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1029.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1029.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Isaias/URI/URI_1030.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Isaias/URI/URI_1030.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula01/exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula01/exercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula01/exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula01/exercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula01/exercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula01/exercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula06/exercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula06/exercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula06/exercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula06/exercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula06/exercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula06/exercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula06/script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula06/script.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/Projeto Cadastro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/synopsys_code_sight_state.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/Packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/Packages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/Packages/cadastro.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/Packages/cadastro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/Planilhas/.~lock.ENTRA21.csv#" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/Planilhas/.~lock.ENTRA21.csv#" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/Planilhas/BACKUP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/Planilhas/BACKUP.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/Planilhas/ENTRA21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/Planilhas/ENTRA21.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/z_Aulas de antigos professores/Aulas_Maykon/Aula08/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas Antigas/Aulas_Maykon/Aula08/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +195,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="/usr/lib/python3.8/site-packages" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -221,6 +350,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606230887990">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606230887990" />
     <state x="716" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605723908473">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -229,40 +362,40 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1605729410377" />
-    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl" timestamp="1606213270470">
+    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl" timestamp="1606303086276">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606213270470" />
+    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606303086276" />
     <state x="617" y="262" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1605807964599" />
     <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1605718153743" />
-    <state width="1897" height="280" key="GridCell.Tab.0.bottom" timestamp="1606229026094">
+    <state width="481" height="906" key="GridCell.Tab.0.bottom" timestamp="1606246080801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606229026094" />
+    <state width="481" height="906" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606246080801" />
     <state width="431" height="785" key="GridCell.Tab.0.bottom/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state width="1897" height="280" key="GridCell.Tab.0.center" timestamp="1606229026094">
+    <state width="481" height="906" key="GridCell.Tab.0.center" timestamp="1606246080801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606229026094" />
+    <state width="481" height="906" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606246080801" />
     <state width="431" height="785" key="GridCell.Tab.0.center/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state width="1897" height="280" key="GridCell.Tab.0.left" timestamp="1606229026093">
+    <state width="481" height="906" key="GridCell.Tab.0.left" timestamp="1606246080801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606229026093" />
+    <state width="481" height="906" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606246080801" />
     <state width="431" height="785" key="GridCell.Tab.0.left/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state width="1897" height="280" key="GridCell.Tab.0.right" timestamp="1606229026094">
+    <state width="481" height="906" key="GridCell.Tab.0.right" timestamp="1606246080801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1897" height="280" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606229026094" />
+    <state width="481" height="906" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606246080801" />
     <state width="431" height="785" key="GridCell.Tab.0.right/0.30.1600.870@0.30.1600.870" timestamp="1605276990113" />
     <state width="574" height="902" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1605730417059" />
-    <state x="456" y="175" key="SettingsEditor" timestamp="1606210712168">
+    <state x="456" y="175" key="SettingsEditor" timestamp="1606312296333">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="456" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606210712168" />
+    <state x="456" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1606312296333" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606229264730">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
