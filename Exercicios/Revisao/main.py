@@ -1,11 +1,12 @@
 #!/bin/python3
 from Exercicios import exercises as e
+from Exercicios.Poker.main import main as poker
 
 
 while True:
     try:
         for i in range(8):
-            print(f'{i} - Exercicio {i}')
+            print(f'{i+1} - Exercicio {i+1}')
         else:
             print('9 - Sair')
             escolha = int(input('> '))
@@ -20,11 +21,12 @@ while True:
             elif escolha == 5:
                 e.exercicio5()
             elif escolha == 6:
-                pass
+                e.exercicio6()
+                print('\n')
             elif escolha == 7:
-                pass
+                e.exercicio7()
             elif escolha == 8:
-                pass
+                poker()
             elif escolha == 9:
                 print('Saindo...')
                 break

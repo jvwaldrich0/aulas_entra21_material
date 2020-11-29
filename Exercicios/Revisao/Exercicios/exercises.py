@@ -1,6 +1,8 @@
 #!/bin/python3
-import os
 import random
+from itertools import permutations
+from os import system, name
+import unicodedata
 
 
 def clear():
@@ -13,7 +15,7 @@ def clear():
     """
     # Limpa terminal antes de cada execução
     # "cls" para windows e "clear" para linux/mac (posix)
-    os.system('cls') if os.name == 'nt' else os.system('clear')
+    system('cls') if name == 'nt' else system('clear')
 
 
 def exercicio1():
@@ -204,7 +206,35 @@ def exercicio6():
     Usar um vetor de 1 a 9 parece ser mais simples que usar uma matriz 3x3.
     """
 
-    
+    print(f"\n{'*' * 5} QUADRADOS MÁGICOS DE ORDEM 3x3 {'*' * 5}\n")
+    quadrados = list(permutations([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+
+    for quadrados in quadrados:
+        soma = quadrados[0] + quadrados[1] + quadrados[2]
+        valid = True
+
+        # soma das linhas
+        for i in range(0, 7, 3):
+            if (quadrados[i] + quadrados[i + 1] + quadrados[i + 2]) != soma:
+                valid = False
+
+        # soma das colunas
+        for i in range(0, 3):
+            if (quadrados[i] + quadrados[i + 3] + quadrados[i + 6]) != soma:
+                valid = False
+
+        # soma das diagonais
+        s = (quadrados[0] + quadrados[4] + quadrados[8])
+        ss = (quadrados[2] + quadrados[4] + quadrados[6])
+        if s != soma or ss != soma:
+            valid = False
+
+        if valid:
+            print('[', end=" ")
+            for i in range(0, 7, 3):
+                print(f"[{quadrados[i]} {quadrados[i + 1]} {quadrados[i + 2]}]", end=" ")
+            print(']')
+
 
 #######################################################################################################
 
@@ -212,7 +242,26 @@ def exercicio6():
 
 #     quantos espaços em branco existem na frase.
 #     quantas vezes aparecem as vogais a, e, i, o, u.
+def exercicio7():
+    def countChar(char: str, phrase: str) -> int:
+        new_ph = unicodedata.normalize("NFD", phrase).upper()
+        count = new_ph.count(char.upper())
 
+        return count
+
+    print(f"{'*' * 10}  CONTADOR DE ESPAÇOS EM BRANCO E VOGAIS  {'*' * 10}\n")
+    frase = input("Informe uma frase: ")
+
+    print(f"""
+        FRASE: {frase}
+        NÚMERO DE ESPAÇOS EM BRANCO: {countChar(' ', frase)}
+        NÚMERO DE VOGAIS: 
+        A: {countChar('a', frase)}
+        E: {countChar('e', frase)}
+        I: {countChar('i', frase)}
+        O: {countChar('o', frase)}
+        U: {countChar('u', frase)}
+        """)
 
 ########################################################################################################
 
