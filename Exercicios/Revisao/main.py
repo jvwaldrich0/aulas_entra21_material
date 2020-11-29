@@ -1,4 +1,6 @@
-from Exercicios import ex1,ex2,ex3,ex4,ex5,ex6,ex7,ex8
+#!/bin/python3
+from Exercicios import exercises as e
+
 
 while True:
     try:
@@ -7,17 +9,16 @@ while True:
         else:
             print('9 - Sair')
             escolha = int(input('> '))
-
             if escolha == 1:
-                ex1.exercicio1()
+                e.exercicio1()
             elif escolha == 2:
-                ex2.exercicio2()
+                e.exercicio2()
             elif escolha == 3:
-                ex3.exercicio3()
+                e.exercicio3()
             elif escolha == 4:
-                pass
+                e.exercicio4()
             elif escolha == 5:
-                pass
+                e.exercicio5()
             elif escolha == 6:
                 pass
             elif escolha == 7:
@@ -27,6 +28,10 @@ while True:
             elif escolha == 9:
                 print('Saindo...')
                 break
-
     except ValueError:
         print('Valor errado')
+    except KeyboardInterrupt:
+        print('Ate logo!')
+    finally:
+        e.clear()
+
