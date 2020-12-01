@@ -57,7 +57,7 @@ def exercicio1(base_tkinter):
 def exercicio2(base_tkinter):
     def verificar_valores(base):
         largura = int(largura_parede.get())
-        altura = int(largura_parede.get())
+        altura = int(altura_parede.get())
         if int(largura_parede.get()) > 0 and int(largura_parede.get()) > 0:
             info_compra(base, largura, altura)
         else:
