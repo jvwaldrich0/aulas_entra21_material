@@ -1,38 +1,109 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"/>
-        <title>Aula HTML</title>
+        <title>Website do John</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            div {
+                margin: 0;
+                border: 2px solid black;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            a {color: white }
+
+
+        </style>
     </head>
-    <body>
-        <h1 style="text-align: center;"> Locais que eu gostaria de levar minha potatoes!</h1>
 
-        <h2 style="text-align: left;"> Canada </h2>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg"
-             alt="Canada" title="Canada" height="300px" width="500px">
-        <p>
-        <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" style="text-align: left;">Saiba mais!</a> </p>
+    <body style="margin: auto; background: cyan">
+        <!-- Menu principal -->
+        <div style="width: 100%; height: 150px; display: flex; flex-direction: column; background: black ">
+            <div style="width: 100%;position: fixed; position: 0; overflow: hidden; display: flex; direction: column; background: black">
+                <div>
+                    <img style="width: 40px; height: auto" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn4.iconfinder.com%2Fdata%2Ficons%2Fstash%2F128%2Fcomputer-chip-512.png&f=1&nofb=1">
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: flex-end; align-items: center; width: 22%;">
+                    <a style="margin-left: 30px;">Artigos</a>
+                    <a style="margin-left: 30px;">Tutoriais</a>
+                    <a style="margin-left: 30px;">IP Check</a>
+                    <a style="margin-left: 30px;">Test</a>
+                </div>
+                <div style="display: flex; flex-direction: row; justify-content: flex-end; align-items: right; width: 100%;">
+                    <button style="margin-left: 30px; background: cyan;">Login </button>
+                </div>
+            </div>
+            <!-- gambiarra ;D -->
+            <div style="height: 85px;"></div>
 
-        <h2 style="text-align: left;"> Suiça </h2>
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.offshorecompany.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fsw-fl.png&f=1&nofb=1"
-             alt="Canada" title="Canada" height="300px" width="500px">
-        <p>
-        <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" style="text-align: left;">Saiba mais!</a> </p>
-        <h2 style="text-align: left;"> Noruega </h2>
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-wEvSEyjAx8E%2FVrNbTBDY38I%2FAAAAAAAAozc%2FLF70KguNl60%2Fw1200-h630-p-nu%2F1280px-Flag_of_Norway.svg.png&f=1&nofb=1"
-             alt="Canada" title="Canada" height="300px" width="500px">
-        <p>
-        <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" style="text-align: left;">Saiba mais!</a> </p>
+            <div style="height: 65px; display: flex; flex-direction: row; justify-content: center; align-items: center; background: purple">
+                <a style="margin-left: 30px;">Item</a>
+                <a style="margin-left: 30px;">Item</a>
+                <a style="margin-left: 30px;">Item</a>
+                <a style="margin-left: 30px;">Item</a>
+                <a style="margin-left: 30px;">Item</a>
+            </div>
+        </div>
 
-        <h2 style="text-align: left;"> Suecia </h2>
-        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-dZvz8DxSbTY%2FTdIUdgxRPyI%2FAAAAAAAABC8%2FhAqH4s_ZAjc%2Fs1600%2FWallpapers%2BFlag%2Bof%2BSweden%2BFlag%2BSwedesh%2BFlag%2BGraphics%2B%2525285%252529.gif&f=1&nofb=1"
-             alt="Canada" title="Canada" height="300px" width="500px" class="center">
-        <p>
-        <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" style="text-align: left;">Saiba mais!</a> </p>
-        <h2 style="text-align: left;"> Finlandia </h2>
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fb%2Fbc%2FFlag_of_Finland.svg%2F1800px-Flag_of_Finland.svg.png&f=1&nofb=1"
-             alt="Canada" title="Canada" height="300px" width="500px" class="center">
-                <p>
-        <a href="https://pt.wikipedia.org/wiki/Finl%C3%A2ndia" style="text-align: left;">Saiba mais!</a> <p>
-</body>
+
+        <!-- Corpo, onde vão os posts -->
+        <div style="margin: 180px;display: flex; flex-direction: column;">
+            <div style="padding: 10px; margin-bottom: 20px; margin: 10px;">
+                <img style="width: 100%; height: 500px"src="cyber.jpg">
+            </div>
+            <hr style="background-color: darkorchid;">
+            <div style="display: flex; flex-direction: row; margin: 10px; box-sizing: border-box;">
+                <div style="width: 25%; height: 350px; padding: 30px;">
+                    <img src="proxy-image.jpg" title="Foto Velha" >Foto Velha</img>
+                </div>
+                <div style="display: flex; flex-direction: column; justify-content: flex-start; width: 75%;">
+                    <h2>Primeiro site - Hello World</h2>
+                    <p>Joao Vitor Waldrich</p>
+                    <p>A vida passa, em um piscar de olhos tudo muda
+As vezes nem eu mesmo entendo como eu me sinto
+Parece tão clichê falar que essa vida é curta
+Eu me peguei olhando pro espelho com vinte e cinco
+Não me sinto velho também não me sinto novo
+Sorte que não tenho ambição de querer ser uma lenda
+Não coleciono fracassos, mas não tô no topo
+Sou só um cara normal com poucos amigos na agenda
+Eu tento ser um homem bom, melhorar todo dia
+Tem fases que sou um homem ruim e nem mesmo me empenho
+Então eu falho e machuco quem não deveria
+Tenho certeza que não mereço o que eu tenho
+Cicatrizes, machucados me deixaram frio
+Tô duvidando do amor há muito tempo atrás
+Minha referência de família que um dia existiu
+Acabou no dia do divórcio do meus pais
+É tão estranho quando você se sente culpado
+Mesmo não tendo culpa é um sentimento hostil
+Será que os meus pais eu poderia ter ajudado?
+Ou feito algo que evitasse a morte do Fill?
+Provavelmente não, só que agora já é tarde
+A vida segue, até breve é tudo resta
+Essas "bad" me pegando é crise da idade?
+Eu ouço uns caras perguntando: Mano, cê tá nessas?
+É, eu tô nessa, e isso aqui é só um desabafo
+Meu coração tá na caneta, isso é penitência
+Escrever o que eu sinto é tudo o que eu faço
+Eu não sei se é depressão ou então dependência
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menus e rodapés na parte inferior -->
+        <div style="width: 100%; height: 100px;background-color: blue;">
+
+        </div>
+        <div style="width: 100%; height: 200px; background-color: cornflowerblue;">
+
+        </div>
+        <div style="width: 100%; height: 50px; background-color: darkblue;">
+
+        </div>
+    </body>
 </html>

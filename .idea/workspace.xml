@@ -25,6 +25,7 @@
     <list default="true" id="c32c801e-540a-4407-9f42-2c43540f9c54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Aulas/aula12/good-pratices.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/aula12/good-pratices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Exercicios/GUI - Revisao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../entra21" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -219,10 +220,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1605729410377" />
-    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl" timestamp="1606672618731">
+    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl" timestamp="1607441783479">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1606672618731" />
+    <state x="740" y="288" width="424" height="477" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607441783479" />
     <state x="617" y="262" key="FileChooserDialogImpl/0.30.1600.870@0.30.1600.870" timestamp="1605807964599" />
     <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1605718153743" />
     <state width="718" height="971" key="GridCell.Tab.0.bottom" timestamp="1606672531231">
